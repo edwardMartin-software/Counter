@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ad2ecfc-4955-449a-94ec-f61d87d0c34b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ie/gmit/illegalArgumentException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ie/gmit/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ie/gmit/Counter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ie/gmit/CounterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ie/gmit/CounterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ie/gmit/Counter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ie/gmit/Counter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/ie/gmit/CounterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ie/gmit/CounterTest.class" afterDir="false" />
     </list>
@@ -32,8 +35,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ie/gmit/CounterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="33" />
+            <state relative-caret-position="397">
+              <caret line="32" column="48" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ie/gmit/Counter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+            <state relative-caret-position="170">
+              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
               <folding>
                 <element signature="e#96#97#0" expanded="true" />
                 <element signature="e#122#123#0" expanded="true" />
@@ -53,7 +56,18 @@
                 <element signature="e#186#187#0" expanded="true" />
                 <element signature="e#200#201#0" expanded="true" />
                 <element signature="e#222#223#0" expanded="true" />
+                <element signature="e#247#248#0" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ie/gmit/illegalArgumentException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="57" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -76,6 +90,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ie/gmit/Counter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ie/gmit/illegalArgumentException.java" />
         <option value="$PROJECT_DIR$/src/test/java/ie/gmit/CounterTest.java" />
       </list>
     </option>
@@ -102,15 +117,6 @@
       </expand>
       <select />
     </treeState>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
-      </list>
-    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-43" />
@@ -176,6 +182,11 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ie.gmit" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -188,7 +199,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CounterTest.testDecrementOfCount">
+  <component name="RunManager" selected="JUnit.CounterTest.test1ArgConstructor">
     <configuration name="CounterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maven-counter" />
       <extension name="coverage">
@@ -200,6 +211,22 @@
       <option name="PACKAGE_NAME" value="ie.gmit" />
       <option name="MAIN_CLASS_NAME" value="ie.gmit.CounterTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CounterTest.test1ArgConstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maven-counter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ie.gmit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ie.gmit" />
+      <option name="MAIN_CLASS_NAME" value="ie.gmit.CounterTest" />
+      <option name="METHOD_NAME" value="test1ArgConstructor" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -254,6 +281,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CounterTest.test1ArgConstructor" />
         <item itemvalue="JUnit.CounterTest.testDecrementOfCount" />
         <item itemvalue="JUnit.CounterTest.testConstructor" />
         <item itemvalue="JUnit.CounterTest.testIncrementOfCount" />
@@ -271,7 +299,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581078431479</updated>
-      <workItem from="1581078435003" duration="2216000" />
+      <workItem from="1581078435003" duration="2663000" />
     </task>
     <task id="LOCAL-00001" summary="1st commit">
       <created>1581078643898</created>
@@ -287,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581080366691</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Count decrement passed">
+      <created>1581080804953</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581080804953</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -306,12 +341,15 @@
     <history-entry file="CounterTest_testConstructor - 2020.02.07 at 13h 00m 42s.xml">
       <configuration name="CounterTest.testConstructor" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CounterTest_testDecrementOfCount - 2020.02.07 at 13h 06m 05s.xml">
+      <configuration name="CounterTest.testDecrementOfCount" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2216000" />
+    <option name="totallyTimeSpent" value="2663000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2552" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -319,7 +357,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1888753" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" weight="0.3298731" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -329,7 +367,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32026875" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3298731" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -382,7 +420,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1st commit" />
     <MESSAGE value="Count increment passed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Count increment passed" />
+    <MESSAGE value="Count decrement passed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Count decrement passed" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -394,8 +433,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ie/gmit/Counter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        <state relative-caret-position="170">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
           <folding>
             <element signature="e#96#97#0" expanded="true" />
             <element signature="e#122#123#0" expanded="true" />
@@ -403,14 +442,23 @@
             <element signature="e#186#187#0" expanded="true" />
             <element signature="e#200#201#0" expanded="true" />
             <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ie/gmit/illegalArgumentException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="57" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ie/gmit/CounterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="33" />
+        <state relative-caret-position="397">
+          <caret line="32" column="48" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

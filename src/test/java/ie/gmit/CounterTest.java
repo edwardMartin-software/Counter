@@ -24,4 +24,14 @@ public class CounterTest {
         counter.decrease();
         assertEquals(0,counter.getCount());
     }
+
+    @Test
+    void test1ArgConstructor(){
+        try {
+            counter = new Counter(2);
+        } catch (illegalArgumentException e) {
+            System.err.println("Illegal Argument");
+        }
+
+    }
 }

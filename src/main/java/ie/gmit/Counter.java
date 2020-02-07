@@ -8,6 +8,13 @@ public class Counter {
         count = 0;
     }
 
+    public Counter(int count) throws illegalArgumentException {
+        if(count < 1){
+            throw new illegalArgumentException();
+        }
+        this.count = count;
+    }
+
     public int getCount(){
         return count;
     }

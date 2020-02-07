@@ -16,4 +16,12 @@ public class CounterTest {
         counter.increase();
         assertEquals(1,counter.getCount());
     }
+
+    @Test
+    void testDecrementOfCount(){
+        counter = new Counter();
+        counter.increase();
+        counter.decrease();
+        assertEquals(0,counter.getCount());
+    }
 }

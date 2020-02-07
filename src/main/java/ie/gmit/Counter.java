@@ -11,4 +11,8 @@ public class Counter {
     public int getCount(){
         return count;
     }
+
+    public void increase(){
+        count++;
+    }
 }

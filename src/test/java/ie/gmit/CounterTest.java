@@ -9,4 +9,11 @@ public class CounterTest {
          counter = new Counter();
         assertEquals(0,counter.getCount());
     }
+
+    @Test
+    void testIncrementOfCount(){
+        counter = new Counter();
+        counter.increase();
+        assertEquals(1,counter.getCount());
+    }
 }
